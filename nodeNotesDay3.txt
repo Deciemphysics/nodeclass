@@ -1,0 +1,33 @@
+Events - emit (sending out events), listener (receiving events).
+
+Emitters send out event, ie. heres data, Im finished, etc
+
+Listeners are waiting for the event
+
+Streams - flow of data ( stream of data )
+
+Specifically, streams are ABSTRACT INTERFACES implemented by various objects in Node.js
+
+Interfaces are contracts, they must satisfy the contract by guaranteeing certain methods. 
+
+Objects that let you read data from a source and write data to a destination in a continuous fashion are streams.
+
+There are 4 types of streams
+
+    Readable - streams used for read operations
+    Writable - Streams used for write operations
+    Duplex - Streams which can be used for both read and write operations
+    Transform - A type of duplex stream where the output is computed based on input
+
+Streams - Each type of Stream is an EventEmitter and throws several events at different instance of times. 
+
+    data - This even is fired when there is data available to read
+    end - This event is fired when there is no more data available to read
+    error - This event is fired when there is any error receiving or writing data
+    finish - This event is fired when all data has been flushed to underlying systems
+
+Readable Streams
+
+    Stuff
+
+Duplex Streams 

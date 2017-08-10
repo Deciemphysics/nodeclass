@@ -1,0 +1,3 @@
+Mine does not append
+Hey it now appends!
+And it does it in new lines
